@@ -16,17 +16,17 @@
   };
 
   environment.systemPackages = with pkgs; [
-    gnome.gnome-session
-    gnome.gnome-tweaks
-    vim
-    neovim
-    git
-    steam
-    discord
-    bitwarden
-    librewolf
-    htop
-    kitty
+    pkgs.gnome.gnome-session
+    pkgs.gnome.gnome-tweaks
+    pkgs.vim
+    pkgs.neovim
+    gpkgs.it
+    pkgs.steam
+    pkgs.discord
+    pkgs.bitwarden-desktop
+    pkgs.librewolf
+    pkgs.htop-vim
+    pkgs.kitty
   ];
 
   # Enable GNOME and make it default (force Wayland for GDM)
