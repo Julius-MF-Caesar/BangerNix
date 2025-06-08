@@ -20,7 +20,7 @@
     pkgs.gnome.gnome-tweaks
     pkgs.vim
     pkgs.neovim
-    gpkgs.it
+    pkgs.git
     pkgs.steam
     pkgs.discord
     pkgs.bitwarden-desktop
